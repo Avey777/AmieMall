@@ -20,13 +20,13 @@
       <NuxtLink to="/" class="nav-link" active-class="active">
         <span class="link-text">Flight</span>
       </NuxtLink>
-      <NuxtLink to="/" class="nav-link" active-class="active">
+      <NuxtLink to="/service" class="nav-link" active-class="active">
         <span class="link-text">Service</span>
       </NuxtLink>
-      <NuxtLink to="/" class="nav-link" active-class="active">
+      <NuxtLink to="/about" class="nav-link" active-class="active">
         <span class="link-text">About Us</span>
       </NuxtLink>
-      <NuxtLink to="/" class="nav-link" active-class="active">
+      <NuxtLink to="/contact" class="nav-link" active-class="active">
         <span class="link-text">Contact Us</span>
       </NuxtLink>
     </div>
