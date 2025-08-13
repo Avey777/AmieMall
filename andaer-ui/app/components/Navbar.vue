@@ -17,16 +17,16 @@
       <NuxtLink to="/" class="nav-link" exact-active-class="active">
         <span class="link-text">Home</span>
       </NuxtLink>
-      <NuxtLink to="/" class="nav-link" active-class="active">
+      <NuxtLink to="/safe-flight" class="nav-link" active-class="active">
         <span class="link-text">Flight</span>
       </NuxtLink>
-      <NuxtLink to="/" class="nav-link" active-class="active">
+      <NuxtLink to="/service" class="nav-link" active-class="active">
         <span class="link-text">Service</span>
       </NuxtLink>
-      <NuxtLink to="/" class="nav-link" active-class="active">
+      <NuxtLink to="/about" class="nav-link" active-class="active">
         <span class="link-text">About Us</span>
       </NuxtLink>
-      <NuxtLink to="/" class="nav-link" active-class="active">
+      <NuxtLink to="/contact" class="nav-link" active-class="active">
         <span class="link-text">Contact Us</span>
       </NuxtLink>
     </div>
@@ -47,13 +47,13 @@
       <NuxtLink to="/" class="mobile-nav-link" @click="closeMenu">
         Home
       </NuxtLink>
-      <NuxtLink to="/" class="mobile-nav-link" @click="closeMenu">
+      <NuxtLink to="/safe-flight" class="mobile-nav-link" @click="closeMenu">
         Flight
       </NuxtLink>
-      <NuxtLink to="/" class="mobile-nav-link" @click="closeMenu">
+      <NuxtLink to="/service" class="mobile-nav-link" @click="closeMenu">
         Service
       </NuxtLink>
-      <NuxtLink to="/" class="mobile-nav-link" @click="closeMenu">
+      <NuxtLink to="/about" class="mobile-nav-link" @click="closeMenu">
         About Us
       </NuxtLink>
       <NuxtLink to="/contact" class="mobile-nav-link" @click="closeMenu">
