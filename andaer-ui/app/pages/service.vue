@@ -2,8 +2,10 @@
   <div class="services-page">
     <section class="hero-section">
       <div class="container">
-        <h1>专业无人机服务</h1>
-        <p>为您提供全方位的无人机解决方案，从销售到售后一站式服务</p>
+        <!-- 专业无人机服务 -->
+        <h1>Professional drone services</h1>
+        <!-- 为您提供全方位的无人机解决方案，从销售到售后一站式服务 -->
+        <p>Comprehensive drone solutions from sales to after-sales service.</p>
       </div>
     </section>
 
@@ -11,71 +13,85 @@
       <div class="container">
         <div class="service-card">
           <div class="service-icon">
-            <i class="fas fa-shopping-cart"></i>
+            <i class="fas fa-shopping-cart" />
           </div>
-          <h3>无人机销售</h3>
+          <!-- 无人机销售 -->
+          <h3>Drone sales</h3>
           <ul>
-            <li>最新款消费级无人机</li>
-            <li>专业航拍设备</li>
-            <li>行业应用解决方案</li>
-            <li>定制化服务</li>
+            <li>The latest consumer grade drone</li>
+            <li>Professional aerial photography equipment</li>
+            <!-- <li>行业应用解决方案</li> -->
+            <!-- <li>定制化服务</li> -->
           </ul>
-          <NuxtLink to="/products" class="service-btn">查看产品</NuxtLink>
+          <!-- <NuxtLink to="/products" class="service-btn">查看产品</NuxtLink> -->
         </div>
 
         <div class="service-card">
           <div class="service-icon">
-            <i class="fas fa-cogs"></i>
+            <i class="fas fa-cogs" />
           </div>
-          <h3>技术支持</h3>
+          <!-- 技术支持 -->
+          <h3>Technical support</h3>
           <ul>
-            <li>设备操作培训</li>
-            <li>飞行技巧指导</li>
-            <li>软件使用教学</li>
-            <li>航拍后期处理</li>
+            <li>Equipment operation training</li>
+            <li>Flight skills instruction</li>
+            <li>Software usage tutorial</li>
+            <!-- <li>航拍后期处理</li> -->
           </ul>
-          <NuxtLink to="/support" class="service-btn">获取支持</NuxtLink>
+          <!-- <NuxtLink to="/support" class="service-btn">获取支持</NuxtLink> -->
         </div>
 
         <div class="service-card">
           <div class="service-icon">
-            <i class="fas fa-tools"></i>
+            <i class="fas fa-tools" />
           </div>
-          <h3>维修保养</h3>
+          <!-- 维修保养 -->
+          <h3>Maintenance and repair</h3>
           <ul>
-            <li>专业检测设备</li>
-            <li>原厂配件更换</li>
-            <li>快速维修服务</li>
-            <li>年度保养计划</li>
+            <li>Professional testing equipment</li>
+            <li>Original equipment replacement</li>
+            <!-- <li>快速维修服务</li> -->
+            <!-- <li>年度保养计划</li> -->
           </ul>
-          <NuxtLink to="/repair" class="service-btn">申请服务</NuxtLink>
+          <!-- <NuxtLink to="/repair" class="service-btn">申请服务</NuxtLink> -->
         </div>
       </div>
     </section>
 
     <section class="value-proposition">
       <div class="container">
-        <h2>为什么选择我们的服务？</h2>
+        <!-- 为什么选择我们的服务？ -->
+        <h2>Why choose our service?</h2>
         <div class="value-grid">
           <div class="value-item">
-            <i class="fas fa-check-circle"></i>
-            <h3>正品保障</h3>
-            <p>所有产品均为官方正品，享受完整售后服务</p>
+            <i class="fas fa-check-circle" />
+            <h3>Genuine product guarantee</h3>
+            <p>
+              All products are official genuine with full after-sales service.
+            </p>
           </div>
           <div class="value-item">
-            <i class="fas fa-headset"></i>
-            <h3>专业团队</h3>
-            <p>10年以上无人机行业经验的技术支持团队</p>
+            <i class="fas fa-headset" />
+            <h3>Professional team</h3>
+            <p>
+              A more professional technical support team with extensive drone
+              industry experience.
+            </p>
           </div>
           <div class="value-item">
-            <i class="fas fa-shield-alt"></i>
-            <h3>安全保障</h3>
-            <p>提供飞行保险和意外损坏保障计划</p>
+            <i class="fas fa-shield-alt" />
+            <h3>Safety assurance</h3>
+            <!-- 提供飞行保险和意外损坏保障计划 -->
+            <p>
+              Professional safety training and flight protection program
+              provided.
+            </p>
           </div>
           <div class="value-item">
-            <i class="fas fa-shipping-fast"></i>
-            <h3>快速响应</h3>
-            <p>全国主要城市24小时内上门服务</p>
+            <i class="fas fa-shipping-fast" />
+            <h3>Fast response</h3>
+            <!-- 全国主要城市24小时内上门服务 -->
+            <p>24/7 online support service</p>
           </div>
         </div>
       </div>
@@ -83,9 +99,14 @@
 
     <section class="contact-cta">
       <div class="container">
-        <h2>需要更多帮助？</h2>
-        <p>我们的客服团队随时为您解答关于无人机的任何问题</p>
-        <div class="contact-methods">
+        <!-- 需要更多帮助？ -->
+        <h2>Need more assistance?</h2>
+        <!-- 我们的客服团队随时为您解答关于无人机的任何问题 -->
+        <p>
+          Our customer service team is ready to answer any questions you have
+          about drones.
+        </p>
+        <!-- <div class="contact-methods">
           <a href="tel:4007000303" class="contact-btn phone-btn">
             <i class="fas fa-phone"></i> 400-700-0303
           </a>
@@ -98,7 +119,7 @@
           <NuxtLink to="/contact" class="contact-btn email-btn">
             <i class="fas fa-envelope"></i> 在线留言
           </NuxtLink>
-        </div>
+        </div> -->
       </div>
     </section>
   </div>

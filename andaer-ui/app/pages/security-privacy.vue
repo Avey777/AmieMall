@@ -1,81 +1,46 @@
 <template>
   <div class="safety-privacy-page">
-    <section class="hero-section">
+    <!-- <section class="hero-section">
       <div class="container">
         <h1>安全与隐私</h1>
         <p>我们致力于保护您的数据和无人机的安全飞行</p>
       </div>
-    </section>
-
-    <section class="safety-section">
-      <div class="container">
-        <h2>无人机安全指南</h2>
-        <div class="safety-grid">
-          <div class="safety-card">
-            <div class="icon">
-              <Icon name="material-symbols:flight-class" />
-            </div>
-            <h3>飞行前检查</h3>
-            <ul>
-              <li>检查电池电量和设备状态</li>
-              <li>确认飞行环境安全</li>
-              <li>了解当地法规和禁飞区</li>
-            </ul>
-          </div>
-
-          <div class="safety-card">
-            <div class="icon">
-              <Icon name="mdi:weather-cloudy" />
-            </div>
-            <h3>天气条件</h3>
-            <ul>
-              <li>避免在强风、雨雪天气飞行</li>
-              <li>注意温度对电池性能的影响</li>
-              <li>保持视线范围内飞行</li>
-            </ul>
-          </div>
-
-          <div class="safety-card">
-            <div class="icon">
-              <Icon name="mdi:account-group" />
-            </div>
-            <h3>人群安全</h3>
-            <ul>
-              <li>远离人群和动物</li>
-              <li>保持安全距离</li>
-              <li>尊重他人隐私</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
+    </section> -->
 
     <section class="privacy-section">
       <div class="container">
-        <h2>隐私政策</h2>
+        <h2>Privacy policy</h2>
         <div class="privacy-content">
           <div class="privacy-block">
-            <h3>数据收集</h3>
-            <p>我们仅收集必要的用户信息用于订单处理和售后服务，包括：</p>
+            <h3>Data collection</h3>
+            <p>
+              We only collect essential user information for order processing
+              and after-sales service, including:
+            </p>
             <ul>
-              <li>联系信息（姓名、地址、电话、邮箱）</li>
-              <li>支付信息（通过安全支付网关处理）</li>
-              <li>设备注册信息（用于保修和固件更新）</li>
+              <li>Contact information (name, address, phone number, email)</li>
+              <li>
+                Payment information (processed through secure payment gateways)
+              </li>
+              <!-- <li>设备注册信息（用于保修和固件更新）</li> -->
             </ul>
           </div>
 
           <div class="privacy-block">
-            <h3>数据保护</h3>
-            <p>我们采用行业标准的安全措施保护您的数据：</p>
+            <h3>Data protection</h3>
+            <p>
+              We employ industry-standard security measures to protect your
+              data:
+            </p>
             <ul>
-              <li>SSL加密传输</li>
-              <li>定期安全审计</li>
-              <li>严格的内部访问控制</li>
-              <li>符合GDPR等隐私法规</li>
+              <!-- <li>SSL加密传输</li> -->
+              <!-- <li>定期安全审计</li> -->
+              <li>Strict internal access controls</li>
+              <li>Compliance with privacy regulations such as GDPR</li>
             </ul>
           </div>
 
-          <div class="privacy-block">
+          <!-- <div class="privacy-block">
             <h3>无人机数据</h3>
             <p>我们的无人机产品设计考虑了您的隐私：</p>
             <ul>
@@ -84,24 +49,27 @@
               <li>清晰的数据收集提示</li>
               <li>一键删除个人数据的选项</li>
             </ul>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
 
     <section class="compliance-section">
       <div class="container">
-        <h2>法规合规</h2>
+        <h2>Regulatory compliance</h2>
         <div class="compliance-content">
-          <p>我们的无人机产品符合以下安全标准和法规要求：</p>
+          <p>
+            Our drone products comply with the following safety standards and
+            regulatory requirements:
+          </p>
           <div class="compliance-badges">
             <div class="badge">
               <Icon name="simple-icons:faadacertificate" />
-              <span>FAA认证</span>
+              <span>FAA certification</span>
             </div>
             <div class="badge">
               <Icon name="simple-icons:ce" />
-              <span>CE认证</span>
+              <span>CE certification</span>
             </div>
             <div class="badge">
               <Icon name="simple-icons:iso" />
@@ -112,13 +80,13 @@
       </div>
     </section>
 
-    <section class="contact-section">
+    <!-- <section class="contact-section">
       <div class="container">
         <h2>有隐私或安全问题？</h2>
         <p>我们的团队随时为您解答疑问</p>
         <NuxtLink to="/contact" class="contact-button"> 联系我们 </NuxtLink>
       </div>
-    </section>
+    </section> -->
   </div>
 </template>
 

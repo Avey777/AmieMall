@@ -1,47 +1,47 @@
 <template>
   <div class="contact-page">
-    <h1>联系我们</h1>
+    <h1>Contact us</h1>
 
-    <div class="contact-section">
+    <!-- <div class="contact-section">
       <h2>在线客服</h2>
       <p>周一至周日：9:00-21:00（北京时间）</p>
       <button class="contact-button">联系在线客服</button>
-    </div>
+    </div> -->
 
-    <div class="contact-section">
-      <h2>大疆公众号</h2>
-      <p>DJI 大疆创新品牌资讯、产品教学与官方售后服务，尽在于此</p>
+    <!-- <div class="contact-section">
+      <h2>公众号</h2>
+      <p>创新品牌资讯、产品教学与官方售后服务，尽在于此</p>
       <p>更多官方公众号😊</p>
+    </div> -->
+
+    <!-- <div class="contact-section">
+      <h2>服务小程序</h2>
+      <p>创新售后服务申请、服务信息查询、玩机技巧学习，一键直达</p>
+    </div> -->
+
+    <div class="contact-section">
+      <h2>Hotline service</h2>
+      <p>Phone：+86 15020579521</p>
+      <p>Working hours：0:00-24:00</p>
+      <!-- <p>更多电话支持😊</p> -->
     </div>
 
     <div class="contact-section">
-      <h2>DJI 大疆服务小程序</h2>
-      <p>DJI 大疆创新售后服务申请、服务信息查询、玩机技巧学习，一键直达</p>
-    </div>
-
-    <div class="contact-section">
-      <h2>热线服务</h2>
-      <p>普通话：4007000303</p>
-      <p>周一至周日：9:00-21:00（北京时间）</p>
-      <p>更多电话支持😊</p>
-    </div>
-
-    <div class="contact-section">
-      <h2>社交媒体</h2>
+      <h2>Social media</h2>
       <div class="social-media">
         <a
           href="https://wa.me/YOUR_WHATSAPP_NUMBER"
           target="_blank"
           class="social-link whatsapp"
         >
-          <i class="fab fa-whatsapp"></i> WhatsApp
+          <i class="fab fa-whatsapp" /> WhatsApp
         </a>
         <a
           href="https://facebook.com/YOUR_FACEBOOK_PAGE"
           target="_blank"
           class="social-link facebook"
         >
-          <i class="fab fa-facebook"></i> Facebook
+          <i class="fab fa-facebook" /> Facebook
         </a>
       </div>
     </div>

@@ -4,12 +4,17 @@
     <section class="hero">
       <div class="container">
         <div class="hero-content">
-          <h1>安全飞行指南</h1>
-          <p>探索最佳实践、法规和技巧，确保您每次飞行都安全可靠</p>
-          <div class="hero-buttons">
+          <h1>Safety Flight Guide</h1>
+          <!-- 安全飞行指南 -->
+          <p>
+            Explore best practices, regulations, and techniques to ensure every
+            flight is safe and reliable.
+          </p>
+          <!-- 探索最佳实践、法规和技巧，确保您每次飞行都安全可靠 -->
+          <!-- <div class="hero-buttons">
             <button class="btn btn-primary">查看安全视频</button>
             <button class="btn btn-secondary">下载安全手册</button>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
@@ -18,27 +23,42 @@
     <section class="section">
       <div class="container">
         <div class="section-title">
-          <h2>安全飞行原则</h2>
-          <p>遵循这些基本准则，确保您和他人的安全</p>
+          <!-- 安全飞行原则 -->
+          <h2>Principles of Safe Flight</h2>
+          <!-- 遵循这些基本准则，确保您和他人的安全 -->
+          <p>
+            Follow these fundamental guidelines to ensure the safety of yourself
+            and others.
+          </p>
         </div>
         <div class="guidelines">
           <div class="guideline-card">
             <div class="card-header">
-              <i class="fas fa-binoculars card-icon"></i>
-              <h3 class="card-title">视线内飞行</h3>
+              <i class="fas fa-binoculars card-icon" />
+              <!-- 视线内飞行 -->
+              <h3 class="card-title">Fly within visual line of sight</h3>
             </div>
             <div class="card-content">
               <ul>
                 <li>
-                  <i class="fas fa-check-circle"></i>始终保持无人机在视线范围内
-                </li>
-                <li><i class="fas fa-check-circle"></i>避免在障碍物后方飞行</li>
-                <li>
-                  <i class="fas fa-check-circle"></i>使用观察员协助监控飞行环境
+                  <!-- 始终保持无人机在视线范围内 -->
+                  <i class="fas fa-check-circle" />Always keep the drone within
+                  your visual line of sight.
                 </li>
                 <li>
-                  <i class="fas fa-check-circle"></i
-                  >避免在雾、雨或低光条件下飞行
+                  <!-- 避免在障碍物后方飞行 -->
+                  <i class="fas fa-check-circle" />Avoid flying behind
+                  obstacles.
+                </li>
+                <li>
+                  <!-- 使用观察员协助监控飞行环境 -->
+                  <i class="fas fa-check-circle" />Use a spotter to assist in
+                  monitoring the flight environment.
+                </li>
+                <li>
+                  <!-- 避免在雾、雨或低光条件下飞行 -->
+                  <i class="fas fa-check-circle" />Avoid flying in fog, rain, or
+                  low-light conditions.
                 </li>
               </ul>
             </div>
@@ -46,36 +66,64 @@
 
           <div class="guideline-card">
             <div class="card-header">
-              <i class="fas fa-map-marked-alt card-icon"></i>
-              <h3 class="card-title">遵守空域规定</h3>
+              <i class="fas fa-map-marked-alt card-icon" />
+              <!-- 遵守空域规定 -->
+              <h3 class="card-title">Comply with airspace regulations.</h3>
             </div>
             <div class="card-content">
               <ul>
-                <li><i class="fas fa-check-circle"></i>了解当地无人机法规</li>
-                <li><i class="fas fa-check-circle"></i>避开机场和禁飞区域</li>
+                <!-- 了解当地无人机法规 -->
                 <li>
-                  <i class="fas fa-check-circle"></i>使用空域地图应用检查限制
+                  <i class="fas fa-check-circle" />Familiarize yourself with
+                  local drone regulations.
                 </li>
-                <li><i class="fas fa-check-circle"></i>飞行高度不超过120米</li>
+                <!-- 避开机场和禁飞区域 -->
+                <li>
+                  <i class="fas fa-check-circle" />Stay away from airports and
+                  no-fly zones.
+                </li>
+                <!-- 使用空域地图应用检查限制 -->
+                <li>
+                  <i class="fas fa-check-circle" />Use airspace map apps to
+                  check for restrictions.
+                </li>
+                <!-- 飞行高度不超过120米 -->
+                <li>
+                  <i class="fas fa-check-circle" />Do not exceed an altitude of
+                  120 meters.
+                </li>
               </ul>
             </div>
           </div>
 
           <div class="guideline-card">
             <div class="card-header">
-              <i class="fas fa-shield-alt card-icon"></i>
-              <h3 class="card-title">安全预防措施</h3>
+              <i class="fas fa-shield-alt card-icon" />
+              <!-- 安全预防措施 -->
+              <h3 class="card-title">Safety precautions</h3>
             </div>
             <div class="card-content">
               <ul>
-                <li><i class="fas fa-check-circle"></i>飞行前检查设备状态</li>
+                <!-- 飞行前检查设备状态 -->
                 <li>
-                  <i class="fas fa-check-circle"></i>保持安全距离（至少30米）
+                  <i class="fas fa-check-circle" />Check equipment status before
+                  flight.
                 </li>
+                <!-- 保持安全距离（至少30米） -->
                 <li>
-                  <i class="fas fa-check-circle"></i>避免在人群或车辆上方飞行
+                  <i class="fas fa-check-circle" />Maintain a safe distance (at
+                  least 30 meters).
                 </li>
-                <li><i class="fas fa-check-circle"></i>注意天气变化和风速</li>
+                <!-- 避免在人群或车辆上方飞行 -->
+                <li>
+                  <i class="fas fa-check-circle" />Avoid flying over crowds or
+                  vehicles.
+                </li>
+                <!-- 注意天气变化和风速 -->
+                <li>
+                  <i class="fas fa-check-circle" />Monitor weather changes and
+                  wind speed.
+                </li>
               </ul>
             </div>
           </div>
@@ -87,8 +135,10 @@
     <section class="section safety-tips">
       <div class="container">
         <div class="section-title">
-          <h2>专业安全提示</h2>
-          <p>提升您的飞行安全知识和技能</p>
+          <!-- 专业安全提示 -->
+          <h2>Professional safety tips</h2>
+          <!-- 提升您的飞行安全知识和技能 -->
+          <p>Enhance your flight safety knowledge and skills.</p>
         </div>
         <div class="tips-container">
           <div class="tip-card">
@@ -99,12 +149,16 @@
                   linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
                   url(&quot;https://images.unsplash.com/photo-1506941433945-99a2aa4eed50?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80&quot;);
               "
-            ></div>
+            />
             <div class="tip-content">
               <div class="tip-number">1</div>
-              <h3 class="tip-title">飞行前检查清单</h3>
+              <!-- 飞行前检查清单 -->
+              <h3 class="tip-title">Pre-flight checklist</h3>
+              <!-- 每次飞行前检查电池电量、螺旋桨状态、固件更新和GPS信号强度。确保遥控器和移动设备已充满电。 -->
               <p>
-                每次飞行前检查电池电量、螺旋桨状态、固件更新和GPS信号强度。确保遥控器和移动设备已充满电。
+                Check battery level, propeller condition, firmware updates, and
+                GPS signal strength before each flight. Ensure the remote
+                controller and mobile device are fully charged.
               </p>
             </div>
           </div>
@@ -117,12 +171,16 @@
                   linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
                   url(&quot;https://images.unsplash.com/photo-1518623489648-a173ef7824f3?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80&quot;);
               "
-            ></div>
+            />
             <div class="tip-content">
               <div class="tip-number">2</div>
-              <h3 class="tip-title">返航点设置</h3>
+              <!-- 返航点设置 -->
+              <h3 class="tip-title">Return point setting</h3>
+              <!-- 起飞前确保GPS信号良好并设置返航点。定期检查返航点是否准确，特别是在移动位置后。 -->
               <p>
-                起飞前确保GPS信号良好并设置返航点。定期检查返航点是否准确，特别是在移动位置后。
+                Ensure a strong GPS signal and set the return point before
+                takeoff. Regularly verify the accuracy of the return point,
+                especially after changing locations.
               </p>
             </div>
           </div>
@@ -135,12 +193,16 @@
                   linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
                   url(&quot;https://images.unsplash.com/photo-1534447677768-be436bb09401?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80&quot;);
               "
-            ></div>
+            />
             <div class="tip-content">
               <div class="tip-number">3</div>
-              <h3 class="tip-title">电池管理</h3>
+              <!-- 电池管理 -->
+              <h3 class="tip-title">Battery management</h3>
+              <!-- 遵守电池使用规则：避免过度放电，在低温环境中预热电池，飞行时留足返航电量（建议30%）。 -->
               <p>
-                遵守电池使用规则：避免过度放电，在低温环境中预热电池，飞行时留足返航电量（建议30%）。
+                Follow battery usage rules: Avoid over-discharging, preheat
+                batteries in cold environments, and reserve sufficient power for
+                return flight (recommended 30%).
               </p>
             </div>
           </div>
@@ -152,31 +214,46 @@
     <section class="section regulations">
       <div class="container">
         <div class="section-title">
-          <h2>全球飞行法规</h2>
-          <p>了解您所在地区的无人机法规要求</p>
+          <!-- 全球飞行法规 -->
+          <h2>Global flight regulations</h2>
+          <!-- 了解您所在地区的无人机法规要求 -->
+          <p>Understand the drone regulatory requirements in your region.</p>
         </div>
         <div class="regulations-grid">
           <div class="regulation-item">
-            <i class="fas fa-globe-americas regulation-icon"></i>
-            <h3>美国 (FAA)</h3>
+            <i class="fas fa-globe-americas regulation-icon" />
+            <!-- 美国 (FAA) -->
+            <h3>United States (FAA)</h3>
+            <!-- 无人机重量超过250克需注册，禁止在人群上空飞行，必须通过TRUST测试，遵守400英尺高度限制。 -->
             <p>
-              无人机重量超过250克需注册，禁止在人群上空飞行，必须通过TRUST测试，遵守400英尺高度限制。
+              Drones weighing over 250 grams must be registered, are prohibited
+              from flying over crowds, must pass the TRUST test, and must comply
+              with the 400-foot altitude limit.
             </p>
           </div>
 
           <div class="regulation-item">
-            <i class="fas fa-globe-europe regulation-icon"></i>
-            <h3>欧盟 (EASA)</h3>
+            <i class="fas fa-globe-europe regulation-icon" />
+            <!-- 欧盟 (EASA) -->
+            <h3>European Union (EASA)</h3>
+            <!-- 分为开放、特定和认证三类。开放类需注册并完成在线培训考试，飞行高度限制120米。 -->
             <p>
-              分为开放、特定和认证三类。开放类需注册并完成在线培训考试，飞行高度限制120米。
+              They are categorized into Open, Specific, and Certified classes.
+              The Open class requires registration and completion of online
+              training and testing, with a flight altitude limit of 120 meters.
             </p>
           </div>
 
           <div class="regulation-item">
-            <i class="fas fa-globe-asia regulation-icon"></i>
-            <h3>中国 (CAAC)</h3>
+            <i class="fas fa-globe-asia regulation-icon" />
+            <!-- 中国 (CAAC) -->
+            <h3>China (CAAC)</h3>
+            <!-- 无人机需实名登记，禁飞区域包括机场、军事设施周边。视距内飞行高度不超过120米。 -->
             <p>
-              无人机需实名登记，禁飞区域包括机场、军事设施周边。视距内飞行高度不超过120米。
+              Drones must be registered with real-name authentication. No-fly
+              zones include areas around airports and military facilities.
+              Flight altitude must not exceed 120 meters within visual line of
+              sight.
             </p>
           </div>
         </div>
@@ -187,8 +264,10 @@
     <section class="section">
       <div class="container">
         <div class="section-title">
-          <h2>常见问题解答</h2>
-          <p>关于无人机安全飞行的常见问题</p>
+          <!-- 常见问题解答 -->
+          <h2>Frequently Asked Questions</h2>
+          <!-- 关于无人机安全飞行的常见问题 -->
+          <p>Frequently Asked Questions on Safe Drone Operation</p>
         </div>
         <div class="faq-container">
           <div
@@ -215,37 +294,45 @@
     </section>
 
     <!-- CTA Section -->
-    <section class="cta">
+    <!-- <section class="cta">
       <div class="container">
         <h2>准备好安全飞行了吗？</h2>
         <p>加入我们的安全飞行课程，获得专业认证并提升您的飞行技能</p>
         <button class="btn btn-primary">报名安全飞行课程</button>
       </div>
-    </section>
+    </section> -->
   </div>
 </template>
 
 <script setup>
 const faqs = ref([
   {
-    question: "飞行前需要做哪些准备？",
+    // 飞行前需要做哪些准备？
+    question: "What preparations are needed before flying?",
+    // "飞行前需要：1) 检查天气状况；2) 确认飞行区域是否允许无人机飞行；3) 检查无人机电池电量和设备状态；4) 校准指南针；5) 设置返航点；6) 确保GPS信号良好；7) 规划飞行路线。"
     answer:
-      "飞行前需要：1) 检查天气状况；2) 确认飞行区域是否允许无人机飞行；3) 检查无人机电池电量和设备状态；4) 校准指南针；5) 设置返航点；6) 确保GPS信号良好；7) 规划飞行路线。",
+      "Pre-flight requirements: 1) Check weather conditions; 2) Confirm whether the flight area permits drone operations; 3) Inspect drone battery level and equipment status; 4) Calibrate the compass; 5) Set the return point; 6) Ensure strong GPS signal; 7) Plan the flight route.",
   },
   {
-    question: "无人机在飞行中失去信号怎么办？",
+    // 无人机在飞行中失去信号怎么办？
+    question: "What to do if a drone loses signal during flight?",
+    // "现代无人机通常具有自动返航功能：1) 保持遥控器开启；2) 尝试重新连接；3) 等待无人机自动返航（通常需要10-30秒）；4) 如果未返回，记录最后位置并联系技术支持。",
     answer:
-      "现代无人机通常具有自动返航功能：1) 保持遥控器开启；2) 尝试重新连接；3) 等待无人机自动返航（通常需要10-30秒）；4) 如果未返回，记录最后位置并联系技术支持。",
+      "Modern drones typically feature an automatic return function: 1) Keep the remote controller powered on; 2) Attempt to reconnect; 3) Wait for the drone to return automatically (usually takes 10-30 seconds); 4) If it doesn't return, note the last known location and contact technical support.",
   },
   {
-    question: "如何安全地操作无人机返航？",
+    // 如何安全地操作无人机返航？
+    question: "How to safely operate a drone's return flight?",
+    // "安全返航步骤：1) 当电池电量剩余30%时开始返航；2) 手动控制返航更安全；3) 保持适当高度避开障碍物；4) 降落时选择开阔平坦区域；5) 接近地面时缓慢下降；6) 确认降落点安全后完成降落。"
     answer:
-      "安全返航步骤：1) 当电池电量剩余30%时开始返航；2) 手动控制返航更安全；3) 保持适当高度避开障碍物；4) 降落时选择开阔平坦区域；5) 接近地面时缓慢下降；6) 确认降落点安全后完成降落。",
+      "Safe return procedures: 1) Initiate return when battery reaches 30%; 2) Manual control provides safer return; 3) Maintain proper altitude to avoid obstacles; 4) Choose open, flat areas for landing; 5) Descend slowly when approaching ground; 6) Complete landing after confirming the safety of the landing spot.",
   },
   {
-    question: "在哪些区域禁止飞行无人机？",
+    // 在哪些区域禁止飞行无人机？
+    question: "In which areas are drones prohibited from flying?",
+    // "禁飞区域包括：1) 机场周边（通常8-10公里范围）；2) 军事设施和政府建筑；3) 人群密集区域；4) 国家公园和自然保护区（需特别许可）；5) 禁飞区划定的城市区域；6) 私人领地上空（需许可）。"
     answer:
-      "禁飞区域包括：1) 机场周边（通常8-10公里范围）；2) 军事设施和政府建筑；3) 人群密集区域；4) 国家公园和自然保护区（需特别许可）；5) 禁飞区划定的城市区域；6) 私人领地上空（需许可）。",
+      "No-fly zones include: 1) Airport vicinities (typically 8-10 km radius); 2) Military installations and government buildings; 3) Densely populated areas; 4) National parks and nature reserves (special permission required); 5) Designated urban no-fly zones; 6) Airspace above private property (permission required).",
   },
 ]);
 

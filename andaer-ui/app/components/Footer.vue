@@ -8,7 +8,7 @@
               <h4 class="nav-title">Safe Flight</h4>
               <ul class="sub-links">
                 <li>
-                  <NuxtLink to="/after-sales-policy" class="footer-link">
+                  <NuxtLink to="/safe-flight" class="footer-link">
                     <i class="fas fa-bolt" />Safe Flight Guidelines
                   </NuxtLink>
                 </li>
@@ -17,11 +17,11 @@
             <li class="nav-main">
               <h4 class="nav-title">Help and Support</h4>
               <ul class="sub-links">
-                <li>
+                <!-- <li>
                   <NuxtLink to="/after-sales-policy" class="footer-link">
                     <i class="fas fa-users" /> After sales service policy
                   </NuxtLink>
-                </li>
+                </li> -->
                 <li>
                   <NuxtLink to="/security-privacy" class="footer-link">
                     <i class="fas fa-envelope" /> Security and Privacy

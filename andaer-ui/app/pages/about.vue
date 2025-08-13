@@ -1,40 +1,45 @@
 <template>
   <div class="about-page">
     <!-- 英雄区域 -->
-    <section class="hero-section">
+    <!-- <section class="hero-section">
       <div class="container">
         <h1>关于<span>天空科技</span></h1>
         <p class="subtitle">引领无人机科技，创造无限可能</p>
       </div>
-    </section>
+    </section> -->
 
     <!-- 公司简介 -->
     <section class="company-intro">
       <div class="container">
         <div class="intro-content">
-          <h2>我们的故事</h2>
+          <h2>Our story</h2>
           <p>
-            天空科技成立于2015年，是中国领先的无人机解决方案提供商。我们专注于消费级和专业级无人机的研发、生产和销售，致力于为全球客户提供高品质的无人机产品和技术服务。
+            Andaer was founded in 2021, specializing in the research,
+            production, and sales of consumer and professional drones. We are
+            committed to providing global customers with high-quality drone
+            products and technical services.
           </p>
           <p>
-            经过多年的发展，我们已经成长为行业内的标杆企业，产品广泛应用于航拍摄影、农业植保、电力巡检、地理测绘等多个领域。
+            Our products are widely used in various fields, including
+            entertainment, aerial photography, agricultural plant protection,
+            power inspection, geographic surveying, and more.
           </p>
           <div class="achievement-grid">
             <div class="achievement-item">
-              <span class="number">10+</span>
-              <span class="label">年行业经验</span>
+              <span class="number">5+</span>
+              <span class="label">Years of industry experience</span>
             </div>
-            <div class="achievement-item">
+            <!-- <div class="achievement-item">
               <span class="number">50+</span>
               <span class="label">专利技术</span>
+            </div> -->
+            <div class="achievement-item">
+              <span class="number">100+</span>
+              <span class="label">Corporate clients</span>
             </div>
             <div class="achievement-item">
-              <span class="number">1000+</span>
-              <span class="label">企业客户</span>
-            </div>
-            <div class="achievement-item">
-              <span class="number">10万+</span>
-              <span class="label">满意用户</span>
+              <span class="number">10000+</span>
+              <span class="label">Satisfied users</span>
             </div>
           </div>
         </div>
@@ -47,33 +52,40 @@
     <!-- 我们的使命 -->
     <section class="mission-section">
       <div class="container">
-        <h2>我们的使命</h2>
+        <h2>Our mission</h2>
         <div class="mission-cards">
           <div class="mission-card">
-            <i class="fas fa-bullseye"></i>
-            <h3>愿景</h3>
+            <i class="fas fa-bullseye" />
+            <h3>Feature</h3>
             <p>
-              成为全球无人机技术创新的领导者，推动无人机技术在各行业的深度应用。
+              To promote the widespread application of drone technology globally
+              and bring more possibilities to the world.
             </p>
           </div>
           <div class="mission-card">
-            <i class="fas fa-rocket"></i>
-            <h3>使命</h3>
+            <i class="fas fa-rocket" />
+            <h3>Mission</h3>
             <p>
-              通过创新技术降低无人机使用门槛，让更多人享受无人机带来的便利与乐趣。
+              To lower the barriers of drone usage through innovative
+              technology, enabling more people to enjoy the convenience and fun
+              that drones bring.
             </p>
           </div>
           <div class="mission-card">
-            <i class="fas fa-heart"></i>
-            <h3>价值观</h3>
-            <p>客户至上、技术创新、诚信经营、追求卓越。</p>
+            <i class="fas fa-heart" />
+            <h3>Core values</h3>
+            <!-- 客户至上、技术创新、诚信经营、追求卓越。 -->
+            <p>
+              Customer first, technological innovation, integrity in business,
+              pursuit of excellence.
+            </p>
           </div>
         </div>
       </div>
     </section>
 
     <!-- 团队介绍 -->
-    <section class="team-section">
+    <!-- <section class="team-section">
       <div class="container">
         <h2>核心团队</h2>
         <div class="team-grid">
@@ -97,10 +109,10 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- 合作伙伴 -->
-    <section class="partners-section">
+    <!-- <section class="partners-section">
       <div class="container">
         <h2>合作伙伴</h2>
         <div class="partners-grid">
@@ -111,20 +123,23 @@
           <img src="/images/p7.webp" alt="百度" loading="lazy" />
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- 联系我们CTA -->
     <section class="contact-cta">
       <div class="container">
-        <h2>想了解更多？</h2>
-        <p>我们随时准备回答您的任何问题，为您提供专业的无人机解决方案。</p>
-        <NuxtLink to="/contact" class="cta-button">联系我们</NuxtLink>
+        <h2>Want to learn more?</h2>
+        <p>
+          We are always ready to answer any of your questions and provide
+          professional drone solutions.
+        </p>
+        <NuxtLink to="/contact" class="cta-button">Contact us</NuxtLink>
       </div>
     </section>
   </div>
 </template>
 
-<script setup>
+<!-- <script setup>
 useHead({
   title: "关于我们 - 天空科技无人机",
   meta: [
@@ -135,7 +150,7 @@ useHead({
     },
   ],
 });
-</script>
+</script> -->
 
 <style scoped>
 .about-page {
@@ -224,7 +239,7 @@ useHead({
   display: block;
   font-size: 2rem;
   font-weight: bold;
-  color: #4caf50;
+  color: #3498db;
   margin-bottom: 5px;
 }
 
@@ -266,7 +281,7 @@ useHead({
 
 .mission-card i {
   font-size: 2.5rem;
-  color: #4caf50;
+  color: #3498db;
   margin-bottom: 20px;
 }
 
@@ -311,7 +326,7 @@ useHead({
 }
 
 .team-member .position {
-  color: #4caf50;
+  color: #3498db;
   font-weight: 500;
   margin-bottom: 15px;
 }
@@ -354,7 +369,7 @@ useHead({
 
 /* 联系我们CTA */
 .contact-cta {
-  background: #4caf50;
+  background: #3498db;
   color: white;
   text-align: center;
   padding: 80px 0;
@@ -374,7 +389,7 @@ useHead({
 .cta-button {
   display: inline-block;
   background: white;
-  color: #4caf50;
+  color: #3498db;
   padding: 15px 40px;
   border-radius: 4px;
   text-decoration: none;
