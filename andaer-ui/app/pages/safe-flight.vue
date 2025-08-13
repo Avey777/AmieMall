@@ -147,7 +147,7 @@
               style="
                 background:
                   linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-                  url(&quot;https://images.unsplash.com/photo-1506941433945-99a2aa4eed50?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80&quot;);
+                  url(&quot;/images/grid1.webp&quot;);
               "
             />
             <div class="tip-content">
@@ -420,7 +420,7 @@ p {
   height: 500px;
   background:
     linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("https://images.unsplash.com/photo-1517331156700-3c241d2b4d83?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80");
+    url("/images/grid1.webp");
   background-size: cover;
   background-position: center;
   color: white;
