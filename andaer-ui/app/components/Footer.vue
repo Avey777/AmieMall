@@ -8,24 +8,24 @@
               <h4 class="nav-title">Safe Flight</h4>
               <ul class="sub-links">
                 <li>
-                  <a href="#"
-                    ><i class="fas fa-bolt" />Safe Flight Guidelines</a
-                  >
+                  <NuxtLink to="/safe-flight" class="footer-link">
+                    <i class="fas fa-bolt" />Safe Flight Guidelines
+                  </NuxtLink>
                 </li>
               </ul>
             </li>
             <li class="nav-main">
               <h4 class="nav-title">Help and Support</h4>
               <ul class="sub-links">
+                <!-- <li>
+                  <NuxtLink to="/after-sales-policy" class="footer-link">
+                    <i class="fas fa-users" /> After sales service policy
+                  </NuxtLink>
+                </li> -->
                 <li>
-                  <a href="#"
-                    ><i class="fas fa-users" /> After sales service policy</a
-                  >
-                </li>
-                <li>
-                  <a href="#"
-                    ><i class="fas fa-envelope" /> Security and Privacy</a
-                  >
+                  <NuxtLink to="/security-privacy" class="footer-link">
+                    <i class="fas fa-envelope" /> Security and Privacy
+                  </NuxtLink>
                 </li>
               </ul>
             </li>
@@ -33,10 +33,14 @@
               <h4 class="nav-title">About Us</h4>
               <ul class="sub-links">
                 <li>
-                  <a href="#"><i class="fas fa-users" /> Our Team</a>
+                  <NuxtLink to="/about" class="footer-link"
+                    ><i class="fas fa-users" /> Our Team
+                  </NuxtLink>
                 </li>
                 <li>
-                  <a href="#"><i class="fas fa-envelope" /> Contact Us</a>
+                  <NuxtLink to="/contact" class="footer-link"
+                    ><i class="fas fa-envelope" /> Contact Us
+                  </NuxtLink>
                 </li>
               </ul>
             </li>
